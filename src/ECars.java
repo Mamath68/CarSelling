@@ -1,0 +1,3 @@
+public enum ECars {
+    ELECTRIQUE, HYBRIDE, DIESEL, ESSENCE, BIOETHANOL
+}
