@@ -22,9 +22,10 @@ public class Cars {
     public static class CarsBuilder implements ICarsBuilder {
         private final ECars type;
         private final List<ECarsOptions> options = new ArrayList<>();
-        private boolean construit = false;
+        private boolean construit;
 
         public CarsBuilder(ECars type) {
+            this.construit = false;
             this.type = type;
         }
 
@@ -42,10 +43,8 @@ public class Cars {
 
         @Override
         public Cars build() {
-            if (!construit) {
-                throw new Error("La voiture doit être marquée comme construite avant d'être créée.");
-            }
             return new Cars(this);
         }
+
     }
 }
