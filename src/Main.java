@@ -15,6 +15,7 @@ public class Main {
                 .addOptions(ECarsOptions.GPS)
                 .addOptions(ECarsOptions.AIR_CONDITIONNE)
                 .addOptions(ECarsOptions.SIEGES_CUIR)
+                .addOptions(ECarsOptions.TOIT_OUVRANT)
                 .estConstruit()
                 .build();
 

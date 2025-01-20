@@ -1,9 +1,9 @@
-enum ECars {
+public enum ECars {
     ELECTRIQUE("électrique"),
     HYBRIDE("hybride"),
     DIESEL("diesel"),
     ESSENCE("essence"),
-    BIOETHANOL("bioéthanol");;
+    BIOETHANOL("bioéthanol");
 
     private final String description;
 
